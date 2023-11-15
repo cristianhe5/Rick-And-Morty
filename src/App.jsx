@@ -33,7 +33,7 @@ function App() {
       <div className='app__container-img'>
         
       </div>
-      <h1 className='app__title'><img className='title__img' src="../public/img/image2.png" alt="" /></h1>
+      <h1 className='app__title'><img className='title__img' src="../image2.png" alt="" /></h1>
       <form className='app__form' onSubmit={handleLocation}>
         <input className='app__input' type="text" ref={inputLocation} />
         <button className='app__btn'>Search</button>

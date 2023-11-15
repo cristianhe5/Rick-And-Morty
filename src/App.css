@@ -1,0 +1,80 @@
+.app{
+    background-color: #111212;
+    min-height: 100vh;
+}
+.app__container-img{
+    width: 100%;
+    background-image: url(https://staticg.sportskeeda.com/editor/2023/01/43f90-16747246599742-1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center 35%;
+    height: 45vh;
+
+    
+    
+}
+/* .app__img{
+    display: block;
+    object-fit: cover;
+    border-radius: 0px;
+    width: 100%;
+    height: 30vh;
+    opacity: 1;
+    object-position: center 30%;
+    ../public/img/mzzHr6g1yvZ05Mc7hNj3tUdy2bM.avif)
+    https://images.thedirect.com/media/article_full/rick-morty-characters.jpg
+    https://staticg.sportskeeda.com/editor/2023/01/43f90-16747246599742-1920.jpg
+    https://images.thedirect.com/media/article_full/rick-mortys.jpg
+    043e45
+
+} */
+.app__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 30vh;
+    margin: 0.5em 0;
+
+}
+.title__img{
+    Width: 400px;
+    Height: 200px;
+    
+}
+
+.app__form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.app__input{
+    border: none;
+    padding: 0.4em 1em;
+    border-radius: 0.5em 0 0 0.5em;
+    
+}
+.app__btn{
+    display: block;
+    border: none;
+    width: 7em;
+    background-color: rgb(34, 210, 31);
+    padding: 0.4em;
+    border-radius: 0 0.5em 0.5em 0;
+    color: white;
+    font-weight: 700;
+}
+.app__card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    padding: 0 0 1em 0;
+}
+
+@media (max-width:500px) {
+    .title__img{
+        Width: 85%;
+                
+    }
+}

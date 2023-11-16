@@ -19,7 +19,11 @@ function App() {
 
   const handleLocation = e => {
     e.preventDefault()
-    setLocationId(inputLocation.current.value.trim())
+    const inputValue = inputLocation.current.value.trim()
+    if(inputValue.length > 0){
+      setLocationId(inputValue)
+    }
+    inputLocation.current.value = ''
   }
 
   
@@ -44,6 +48,8 @@ function App() {
 
             hasError || locationId === '0' ? <h2>❌ Hey! you must provide an id from 1 to 126</h2>
               : (
+
+                
                 <>
                   <InfoLocation location={location} />
 
